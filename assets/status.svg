@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="115" viewBox="0 0 980 115" role="img" aria-label="Kernelkill system status dashboard">
+<defs><linearGradient id="g"><stop stop-color="#071a1a"/><stop offset="1" stop-color="#061018"/></linearGradient></defs>
+<rect x="1" y="1" width="978" height="113" rx="12" fill="url(#g)" stroke="#17665d" stroke-width="2"/>
+<g font-family="DejaVu Sans Mono, monospace"><text x="28" y="31" font-size="15" fill="#7eb2a9">SYSTEM STATUS</text><text x="28" y="64" font-size="21" fill="#00fa9a">● ONLINE</text><text x="256" y="31" font-size="15" fill="#7eb2a9">PRIMARY FOCUS</text><text x="256" y="64" font-size="18" fill="#d9eeee">OFFENSIVE SECURITY</text><text x="610" y="31" font-size="15" fill="#7eb2a9">CURRENT MODE</text><text x="610" y="64" font-size="18" fill="#d9eeee">RESEARCH + BUILD</text><text x="28" y="95" font-size="12" fill="#628a84">NO TELEMETRY COLLECTED • LOCAL SVG</text></g>
+<circle cx="29" cy="58" r="5" fill="#00ff96"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
+<path d="M225 18V91M581 18V91" stroke="#164e4e"/>
+</svg>
