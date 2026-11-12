@@ -13,6 +13,12 @@
 
 </div>
 
+<div align="center">
+
+<img src="./assets/terminal-session.svg" alt="Terminal animation showing harmless commands and ethical research" width="100%" />
+
+</div>
+
 ## `root@kernelkill:~# whoami`
 
 ```text
@@ -95,6 +101,8 @@ Pesquisa prática em segurança de aplicações, APIs e infraestrutura, com foco
 
 **[→ Explore meus repositórios](https://github.com/kernelkill?tab=repositories)**
 
+Projetos em desenvolvimento, como ferramentas internas e experimentos de pesquisa, são apresentados aqui sem sugerir que já tenham repositórios públicos.
+
 ### `03 // Community & knowledge sharing`
 
 Conteúdo técnico, apresentações e iniciativas voltadas à comunidade de segurança, ao ensino e à troca de experiências em Linux, AppSec e Offensive Security.
@@ -105,15 +113,12 @@ Conteúdo técnico, apresentações e iniciativas voltadas à comunidade de segu
 
 <div align="center">
 
-<!-- Os indicadores abaixo são servidos por terceiros; caso indisponíveis, remova-os sem afetar o restante do perfil. -->
-
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=kernelkill&layout=compact&hide_border=true&bg_color=061318&title_color=00FFAB&text_color=C5E0DD" alt="Most used programming languages" />
-
-<br />
-
-<img src="https://streak-stats.demolab.com?user=kernelkill&theme=dark&hide_border=true&background=061318&ring=00FFAB&fire=00BFE9&currStreakLabel=00FFAB" alt="GitHub contribution streak (third-party generated)" />
+<!-- Generated daily by .github/workflows/profile-metrics.yml and stored in this repository. -->
+<img src="./assets/github-metrics.svg" alt="Automatically generated public GitHub statistics" width="100%" />
 
 </div>
+
+<sub>Telemetry includes public repositories, stars and forks (excluding forked repositories), and followers. Updated by GitHub Actions; this is not a live visitor tracker.</sub>
 
 <details>
 <summary><b>root@kernelkill:~# cat mission.txt</b></summary>

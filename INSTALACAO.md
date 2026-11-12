@@ -1,26 +1,45 @@
-# Como publicar o perfil `kernelkill`
+# KERNELKILL — Hacker Terminal V2
 
-1. Acesse https://github.com/new e crie um repositório **público** com o nome **kernelkill**, exatamente igual ao usuário (caso ele ainda não exista).
-2. Extraia o ZIP e coloque `README.md` na raiz do repositório, com `assets/terminal-banner.svg` e `assets/status.svg` na subpasta `assets`.
-3. No GitHub, use **Add file → Upload files**, envie os arquivos mantendo a estrutura, e clique em **Commit changes**. Para manter a estrutura com facilidade, também pode usar o terminal:
+## 1. Atualizar o perfil existente
+
+O perfil já usa o repositório especial `https://github.com/kernelkill/kernelkill`.
+Substitua o README e envie `assets/`, `scripts/` e `.github/workflows/` preservando os caminhos.
+
+### Via terminal
 
 ```bash
 git clone https://github.com/kernelkill/kernelkill.git
 cd kernelkill
-# Copie o README.md e a pasta assets/ do ZIP para cá
-git add README.md assets/
-git commit -m "feat: add hacker terminal profile"
+# Copie os arquivos da pasta kernelkill-v2 aqui, inclusive a pasta oculta .github
+git add README.md assets scripts .github/workflows/profile-metrics.yml
+git commit -m 'feat: profile hacker terminal v2'
 git push origin main
 ```
 
-4. Acesse https://github.com/kernelkill e confira o resultado. O GitHub exibe automaticamente o README quando o repositório é público e tem o mesmo nome do usuário.
+## 2. Iniciar a telemetria
 
-## Personalização
+- Acesse `https://github.com/kernelkill/kernelkill/actions`.
+- Em **Update profile telemetry**, clique em **Run workflow**.
+- O workflow gera `assets/github-metrics.svg`, que aparecerá no README após o primeiro run bem-sucedido.
+- O arquivo é atualizado diariamente. Caso falhe com erro 403 ao fazer push, em Settings > Actions > General > Workflow permissions, selecione **Read and write permissions**, se permitido nas configurações da conta.
+- Se GitHub Actions estiver desativado, habilite-o para o repositório.
+- Não é necessário criar Personal Access Token ou revelar credenciais.
 
-- Edite textos, certificações, tecnologias e links em `README.md`.
-- Edite cores, títulos e animações em `assets/terminal-banner.svg` e `assets/status.svg` (SVGs locais, sem JS).
-- **Importante:** os blocos de estatísticas e badges dependem de serviços externos (GitHub Readme Stats, DemoLab e Shields.io); podem ficar temporariamente indisponíveis. Os dois banners principais são arquivos próprios.
-- Em telas pequenas, o texto extenso do SVG pode ser reduzido visualmente; todo o conteúdo essencial também aparece em texto acessível no README.
-- Verifique no seu perfil as certificações e a descrição dos projetos antes de publicar; ajustes pessoais ficam sob seu controle.
+## 3. Editar a bio lateral (não é controlada pelo README)
 
-Fonte oficial: https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme
+Perfil > **Edit profile** > campo **Bio**:
+
+`Cybersecurity Researcher | Red Team & AppSec | Bug Bounty | Fortinet/F5 | AI Security Automation`
+
+Website: `https://kachorroskicyber.com`
+
+## 4. Fixar os repositórios
+
+No perfil, desça até **Pinned** / **Popular repositories**, clique em **Customize your pins** e escolha até seis repositórios públicos. Priorize `CaidoAIDriven` e outros trabalhos de cybersecurity publicados; evite fixar repositórios de aula antigos se não forem relevantes. É possível mudar a ordem arrastando os cards.
+
+## 5. Regras e limitações
+
+- O SVG de terminal é uma animação ilustrativa, não executa comandos nem acessa uma máquina.
+- Os badges `shields.io` ainda dependem de serviço externo, mas banners, terminal e telemetria são arquivos locais.
+- O SVG de métricas exibe apenas dados públicos; pode não coincidir com o número de *contributions* do calendário do GitHub.
+- Não edite métricas manualmente; o workflow as regenera.
