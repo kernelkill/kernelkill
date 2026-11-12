@@ -107,7 +107,7 @@ Conteúdo técnico, apresentações e iniciativas voltadas à comunidade de segu
 
 <!-- Os indicadores abaixo são servidos por terceiros; caso indisponíveis, remova-os sem afetar o restante do perfil. -->
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kernelkill&layout=compact&hide_border=true&bg_color=061318&title_color=00FFAB&text_color=C5E0DD" alt="Most used public repository languages (third-party generated)" />
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=kernelkill&layout=compact&hide_border=true&bg_color=061318&title_color=00FFAB&text_color=C5E0DD" alt="Most used programming languages" />
 
 <br />
 
